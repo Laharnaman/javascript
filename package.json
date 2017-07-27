@@ -1,0 +1,12 @@
+{
+  "name": "learningjavascript",
+  "version": "1.0.0",
+  "description": "brush up on javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start -s -f index.html src --no-ui"
+  },
+  "author": "",
+  "license": "ISC"
+}
