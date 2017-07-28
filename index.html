@@ -1,16 +1,40 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Javascript with Node.js</title>
-</head>    
+</head>
+
 <body>
     <!-- <h1>Hello World!!!!</h1>
     <script src="src\app.js"></script> -->
-     <script src="src\app-event-listeners.js"></script>
+    <!-- <script src="src\app-event-listeners.js"></script> -->
+    <script src="src\clock.js"></script>
+    <script src="src\output.js"></script>
 
     <script>
-        run2();
+        //hex clock testing
+           // time();
+        // input('mousemove', partScreen('BUTTON'), output);
+function output2(time) {
+    var hexcolor = '#' + time;
+    //alert(hexcolor);
+    document.body.textContent = hexcolor;
+    document.body.backgroundColor = hexcolor;
+    document.body.style.color = 'blue';
+
+}
     </script>
+    <!-- <p>Time is: <script>document.write(time())</script></p>
+</br>
+<p>Time is: <script>console.log(time())</script></p> -->
+    <!-- <p>Hex time is: <script>document.write(time())</script></p> -->
+    <p>  <script>
+            output(time());
+        </script>
+    </p>
+   
 </body>
+
 </html>
